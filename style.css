@@ -1,14 +1,17 @@
 /*
-### Primary
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
 
-### Neutral
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
-
-### Font
 
 - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
 - Weights: 500, 700, 900 */
+
+:root {
+	--paleblue: hsl(225, 100%, 94%);
+	--brightblue: hsl(245, 75%, 52%);
+	--Verypaleblue: hsl(225, 100%, 98%);
+	--Desaturatedblue: hsl(224, 23%, 55%);
+	--Darkblue: hsl(223, 47%, 23%);
+}
+
+body {
+	font-family: 'Red Hat Display', sans-serif;
+}
